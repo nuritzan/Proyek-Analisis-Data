@@ -1,6 +1,6 @@
 # Proyek-Analisis-Data
-mkdir proyek_analisis_data
-cd proyek_analisis_data
-pipenv install
-pipenv shell
+mkdir proyek_analisis_data<br>
+cd proyek_analisis_data<br>
+pipenv install<br>
+pipenv shell<br>
 pip install -r requirements.txt
