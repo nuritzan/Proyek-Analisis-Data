@@ -68,7 +68,7 @@ sns.barplot(
     x='weathersit',
     y='cnt',
     data=dataset,
-    palette=['blue', 'orange', 'green'],
+    palette=['#DAA520', '#FFD700', '#DAA520'],
     ci=None
 )
 plt.title(None)
@@ -83,7 +83,7 @@ sns.barplot(
     x='workingday',
     y='cnt',
     data=dataset,
-    palette=['orange','blue'])
+    palette=['#DAA520','#FFD700'])
 
 plt.title(None)
 plt.xlabel(None)
@@ -97,8 +97,7 @@ sns.barplot(
     x='weekday',
     y='cnt',
     data=dataset,
-    order=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-    palette=['#00FFFF','#7FFFD4','#0000FF','#8A2BE2','#A52A2A','#7FFF00','#FFD700']
+    order=['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 )
 
 plt.title(None)
