@@ -6,7 +6,7 @@ import numpy as np
 sns.set(style='dark')
 
 # Load the dataset
-dataset = pd.read_csv("Bike_Sharing.csv")
+dataset = pd.read_csv("Dashboard/Bike_Sharing.csv")
 
 # Sidebar
 st.sidebar.title('Welcome!:sparkles:')
